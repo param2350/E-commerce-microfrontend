@@ -1,0 +1,79 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f8;
+}
+
+.nav-bar {
+  background-color: #2c3e50;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links a {
+  color: #ecf0f1;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.badge {
+  background-color: #e74c3c;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 50%;
+  font-size: 12px;
+  vertical-align: top;
+}
+
+.content {
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.home-container {
+  text-align: center;
+}
+
+.architecture-diagram {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.block {
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  min-width: 150px;
+}
+
+.host {
+  background-color: #2c3e50;
+}
+
+.remote {
+  background-color: #27ae60;
+  margin: 0 10px;
+}
+
+.remotes {
+  display: flex;
+  justify-content: center;
+}
+
+.arrow {
+  font-size: 24px;
+  margin: 10px 0;
+}

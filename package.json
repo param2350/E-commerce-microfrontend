@@ -1,0 +1,15 @@
+{
+  "name": "mfe-demo-root",
+  "version": "1.0.0",
+  "description": "Root orchestrator for MFE Demo",
+  "scripts": {
+    "start": "concurrently \"npm run start:host\" \"npm run start:products\" \"npm run start:cart\"",
+    "start:host": "cd host && npm start",
+    "start:products": "cd products && npm start",
+    "start:cart": "cd cart && npm start",
+    "install:all": "concurrently \"cd host && npm install\" \"cd products && npm install\" \"cd cart && npm install\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
